@@ -3,11 +3,11 @@ jdk:
 - openjdk8
 
 addons:
-    sonarcloud:
-        organization: 'vincenzovisconti16'
-        token:
-            secure: 15726e8d9069885b0213738c759eb3c676edc8db
+  sonarcloud:
+    organization: 'vincenzovisconti16'
+    token:
+      secure: 20f839e20d753a270ead68c84021cb0129097e35
             
 script: 
-    - ant build 
-    - sonar-scanner
+- ant build 
+- sonar-scanner
